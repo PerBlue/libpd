@@ -331,7 +331,6 @@
 		5C7053901F0574F4004BA738 /* pdogg.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C70538A1F0574D2004BA738 /* pdogg.c */; };
 		5C7058911F0579B3004BA738 /* analysis.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7056E41F057906004BA738 /* analysis.c */; };
 		5C7058921F0579B4004BA738 /* backends.h in Sources */ = {isa = PBXBuildFile; fileRef = 5C7056E51F057906004BA738 /* backends.h */; };
-		5C7058931F0579B4004BA738 /* barkmel.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7056E61F057906004BA738 /* barkmel.c */; };
 		5C7058941F0579B4004BA738 /* bitrate.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7056E71F057906004BA738 /* bitrate.c */; };
 		5C7058951F0579B4004BA738 /* bitrate.h in Sources */ = {isa = PBXBuildFile; fileRef = 5C7056E81F057906004BA738 /* bitrate.h */; };
 		5C7058961F0579B4004BA738 /* block.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7056E91F057906004BA738 /* block.c */; };
@@ -372,7 +371,6 @@
 		5C7058BA1F0579B4004BA738 /* smallft.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7057311F057906004BA738 /* smallft.c */; };
 		5C7058BB1F0579B4004BA738 /* smallft.h in Sources */ = {isa = PBXBuildFile; fileRef = 5C7057321F057906004BA738 /* smallft.h */; };
 		5C7058BC1F0579B4004BA738 /* synthesis.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7057331F057906004BA738 /* synthesis.c */; };
-		5C7058BD1F0579B4004BA738 /* tone.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7057341F057906004BA738 /* tone.c */; };
 		5C7058BE1F0579B4004BA738 /* vorbisenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7057351F057906004BA738 /* vorbisenc.c */; };
 		5C7058BF1F0579B4004BA738 /* vorbisfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7057361F057906004BA738 /* vorbisfile.c */; };
 		5C7058C01F0579B4004BA738 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7057371F057906004BA738 /* window.c */; };
@@ -3392,7 +3390,6 @@
 				5C7058C41F057A08004BA738 /* vorbisfile.h in Sources */,
 				5C7058911F0579B3004BA738 /* analysis.c in Sources */,
 				5C7058921F0579B4004BA738 /* backends.h in Sources */,
-				5C7058931F0579B4004BA738 /* barkmel.c in Sources */,
 				5C7058941F0579B4004BA738 /* bitrate.c in Sources */,
 				5C7058951F0579B4004BA738 /* bitrate.h in Sources */,
 				5C7058961F0579B4004BA738 /* block.c in Sources */,
@@ -3433,7 +3430,6 @@
 				5C7058BA1F0579B4004BA738 /* smallft.c in Sources */,
 				5C7058BB1F0579B4004BA738 /* smallft.h in Sources */,
 				5C7058BC1F0579B4004BA738 /* synthesis.c in Sources */,
-				5C7058BD1F0579B4004BA738 /* tone.c in Sources */,
 				5C7058BE1F0579B4004BA738 /* vorbisenc.c in Sources */,
 				5C7058BF1F0579B4004BA738 /* vorbisfile.c in Sources */,
 				5C7058C01F0579B4004BA738 /* window.c in Sources */,
