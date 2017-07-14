@@ -1,5 +1,8 @@
 /* ------------------------ fatom ----------------------------- */
 
+#ifndef _fatom_h_
+#define _fatom_h_
+
 #define x_val a_pos.a_w.w_float
 #define DEBUG(x) 
 
@@ -459,3 +462,5 @@ void fatom_setup_common(t_class* class)
     class_setsavefn(class,&fatom_save);
 #endif
 }
+
+#endif
