@@ -50,7 +50,6 @@ void atan2_tilde_setup();
 void mixer_tilde_setup();
 void sfwrite_tilde_setup();
 void streamin_tilde_setup();
-void streamout_tilde_setup();
 
 static void* ggee_new(t_symbol* s) {
     t_ggee *x = (t_ggee *)pd_new(ggee_class);
@@ -103,5 +102,4 @@ void ggee_setup(void)
     mixer_tilde_setup();
     sfwrite_tilde_setup();
     streamin_tilde_setup();
-    streamout_tilde_setup();
 }
