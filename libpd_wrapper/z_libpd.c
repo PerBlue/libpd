@@ -48,6 +48,7 @@ int sys_startgui(const char *libdir);
   void sigmund_tilde_setup();
   void stdout_setup();
   void pdogg_setup();
+  void ggee_setup();
 #endif
 
 static t_atom *argv = NULL, *curr;
@@ -100,6 +101,7 @@ int libpd_init(void) {
   sigmund_tilde_setup();
   stdout_setup();
   pdogg_setup();
+  ggee_setup();
 #endif
 #ifdef LIBPD_SETLOCALE
   setlocale(LC_NUMERIC, "C");
