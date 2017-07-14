@@ -18,7 +18,9 @@ void serial_bird_setup();
 void serial_ms_setup();
 void serial_mt_setup();
 void serialize_setup();
-void shell_setup();
+#ifndef _WIN32
+  void shell_setup();
+#endif
 void sinh_setup();
 void sl_setup();
 void stripdir_setup();
@@ -70,7 +72,9 @@ void ggee_setup(void)
     serial_ms_setup();
     serial_mt_setup();
     serialize_setup();
+#ifndef _WIN32
     shell_setup();
+#endif
     sinh_setup();
     sl_setup();
     stripdir_setup();
