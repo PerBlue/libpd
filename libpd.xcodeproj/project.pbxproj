@@ -446,7 +446,6 @@
 		9AD438BE1F1AA0E600BCD56E /* sliderh.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD438711F1AA0E600BCD56E /* sliderh.c */; };
 		9AD438BF1F1AA0E600BCD56E /* state.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD438731F1AA0E600BCD56E /* state.c */; };
 		9AD438C01F1AA0E600BCD56E /* ticker.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD438761F1AA0E600BCD56E /* ticker.c */; };
-		9AD438C11F1AA0E600BCD56E /* toddle.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD438781F1AA0E600BCD56E /* toddle.c */; };
 		9AD438C21F1AA0E600BCD56E /* w_envgen.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD438791F1AA0E600BCD56E /* w_envgen.h */; };
 		9AD438C31F1AA0E600BCD56E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4387B1F1AA0E600BCD56E /* Makefile */; };
 		9AD438C41F1AA0E600BCD56E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4387F1F1AA0E600BCD56E /* Makefile */; };
@@ -1462,7 +1461,6 @@
 		9AD438751F1AA0E600BCD56E /* ticker-help.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ticker-help.pd"; sourceTree = "<group>"; };
 		9AD438761F1AA0E600BCD56E /* ticker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ticker.c; sourceTree = "<group>"; };
 		9AD438771F1AA0E600BCD56E /* toddle-help.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "toddle-help.pd"; sourceTree = "<group>"; };
-		9AD438781F1AA0E600BCD56E /* toddle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = toddle.c; sourceTree = "<group>"; };
 		9AD438791F1AA0E600BCD56E /* w_envgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = w_envgen.h; sourceTree = "<group>"; };
 		9AD4387A1F1AA0E600BCD56E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		9AD4387B1F1AA0E600BCD56E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
@@ -3242,7 +3240,6 @@
 				9AD438751F1AA0E600BCD56E /* ticker-help.pd */,
 				9AD438761F1AA0E600BCD56E /* ticker.c */,
 				9AD438771F1AA0E600BCD56E /* toddle-help.pd */,
-				9AD438781F1AA0E600BCD56E /* toddle.c */,
 				9AD438791F1AA0E600BCD56E /* w_envgen.h */,
 			);
 			path = gui;
@@ -3918,7 +3915,6 @@
 				30ABBFCE1CA8A67000E3722F /* x_vexp.c in Sources */,
 				0E82A08212EEFDEE0053280E /* x_list.c in Sources */,
 				30CEFE391A6A5EDC000E3BAE /* bonk~.c in Sources */,
-				9AD438C11F1AA0E600BCD56E /* toddle.c in Sources */,
 				0E82A08312EEFDEE0053280E /* x_midi.c in Sources */,
 				0E82A08412EEFDEE0053280E /* x_misc.c in Sources */,
 				30EAFA2C1CBB89DC005D1916 /* g_clone.c in Sources */,

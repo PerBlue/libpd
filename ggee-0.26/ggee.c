@@ -47,7 +47,6 @@ void slider_setup();
 void sliderh_setup();
 void state_setup();
 void ticker_setup();
-void toddle_setup();
 void atan2_tilde_setup();
 void mixer_tilde_setup();
 void sfwrite_tilde_setup();
@@ -101,7 +100,6 @@ void ggee_setup(void)
     sliderh_setup();
     state_setup();
     ticker_setup();
-    toddle_setup();
     atan2_tilde_setup();
     mixer_tilde_setup();
     sfwrite_tilde_setup();
