@@ -106,4 +106,6 @@ void ggee_setup(void)
     mixer_tilde_setup();
     sfwrite_tilde_setup();
     streamin_tilde_setup();
+
+    post("ggee setup complete");
 }
