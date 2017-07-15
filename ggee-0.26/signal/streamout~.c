@@ -1,7 +1,7 @@
 
 /* (C) Guenter Geiger <geiger@epy.co.at> */
 
-#include <m_pd.h>
+#include "m_pd.h"
 #include "stream.h"
 
 #include <sys/types.h>

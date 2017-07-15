@@ -1,8 +1,8 @@
 /* (C) Guenter Geiger <geiger@epy.co.at> */
 
 
-#include <m_pd.h>
-#include <g_canvas.h>
+#include "m_pd.h"
+#include "g_canvas.h"
 
 /* ------------------------ qread ----------------------------- */
 

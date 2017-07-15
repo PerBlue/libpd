@@ -3,7 +3,7 @@
 /* this doesn't run on Windows (yet?) */
 #ifndef _WIN32
 
-#include <m_pd.h>
+#include "m_pd.h"
 
 #include <unistd.h>
 #include <stdlib.h>

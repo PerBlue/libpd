@@ -3,7 +3,7 @@
 
 
 #include "math.h"
-#include <m_pd.h>
+#include "m_pd.h"
 
 /* ----------------------------- atan2 ----------------------------- */
 static t_class *atan2_class;

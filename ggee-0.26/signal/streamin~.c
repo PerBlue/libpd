@@ -2,7 +2,7 @@
 /* Written by Guenter Geiger <geiger@xdv.org> (C) 1999 */
 /* Thanks to Anthony Lee for Windows bug fixes */
 
-#include <m_pd.h>
+#include "m_pd.h"
 #include "stream.h"
 
 #include <sys/types.h>

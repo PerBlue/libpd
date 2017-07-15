@@ -2,7 +2,7 @@
 
 
 #include "math.h"
-#include <m_pd.h>
+#include "m_pd.h"
 
 /* ----------------------------- mixer ----------------------------- */
 static t_class *mixer_class;
