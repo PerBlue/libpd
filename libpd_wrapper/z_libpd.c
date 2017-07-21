@@ -188,7 +188,7 @@ static const t_sample sample_to_short = SHRT_MAX,
     } \
   } \
   endTime = sys_getrealtime(); \
-  lippd_float("process_time", (endTime - startTime) * 1000.); \
+  libpd_float("process_time", (endTime - startTime) * 1000.); \
   return 0;
 
 int libpd_process_short(int ticks, const short *inBuffer, short *outBuffer) {
