@@ -22,6 +22,7 @@
 #include "s_stuff.h"
 #include "m_imp.h"
 #include "g_all_guis.h"
+#include "m_pd.h"
 
 #if PD_MINOR_VERSION < 46
 # define HAVE_SCHED_TICK_ARG
@@ -169,6 +170,8 @@ static const t_sample sample_to_short = SHRT_MAX,
 #define PROCESS(_x, _y) \
   int i, j, k; \
   t_sample *p0, *p1; \
+  double startTime, endTime; \
+  startTime = sys_getrealtime(); \
   sys_microsleep(0); \
   for (i = 0; i < ticks; i++) { \
     for (j = 0, p0 = sys_soundin; j < DEFDACBLKSIZE; j++, p0++) { \
@@ -184,6 +187,8 @@ static const t_sample sample_to_short = SHRT_MAX,
       } \
     } \
   } \
+  endTime = sys_getrealtime(); \
+  lippd_float("process_time", (endTime - startTime) * 1000.); \
   return 0;
 
 int libpd_process_short(int ticks, const short *inBuffer, short *outBuffer) {
