@@ -50,6 +50,8 @@ int sys_startgui(const char *libdir);
   void stdout_setup();
   void pdogg_setup();
   void ggee_setup();
+  void threadlib_setup();
+  void sndfiler_setup();
 #endif
 
 static t_atom *argv = NULL, *curr;
@@ -103,6 +105,8 @@ int libpd_init(void) {
   stdout_setup();
   pdogg_setup();
   ggee_setup();
+  threadlib_setup();
+  sndfiler_setup();
 #endif
 #ifdef LIBPD_SETLOCALE
   setlocale(LC_NUMERIC, "C");
