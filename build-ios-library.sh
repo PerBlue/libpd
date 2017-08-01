@@ -15,23 +15,23 @@ mkdir -p "$DIR/out/x86_64"
 mkdir -p "$DIR/out/temp"
 
 #---- Build for armv7 ----
-xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -fcommon -fembed-bitcode" CLANG_ENABLE_MODULE_DEBUGGING=NO ONLY_ACTIVE_ARCH=NO -sdk iphoneos -arch armv7
+xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -DUSE_PD_MAIN -fcommon -fembed-bitcode" CLANG_ENABLE_MODULE_DEBUGGING=NO ONLY_ACTIVE_ARCH=NO -sdk iphoneos -arch armv7
 cp -f -v "$DIR/build/Release-iphoneos/libpd-ios.a" "$DIR/out/armv7/libpd-ios.a"
 
 #---- Build for armv7s ----
-xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -fcommon -fembed-bitcode" CLANG_ENABLE_MODULE_DEBUGGING=NO ONLY_ACTIVE_ARCH=NO -sdk iphoneos -arch armv7s
+xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -DUSE_PD_MAIN -fcommon -fembed-bitcode" CLANG_ENABLE_MODULE_DEBUGGING=NO ONLY_ACTIVE_ARCH=NO -sdk iphoneos -arch armv7s
 cp -f -v "$DIR/build/Release-iphoneos/libpd-ios.a" "$DIR/out/armv7s/libpd-ios.a"
 
 #---- Build for arm64 ----
-xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -fcommon -fembed-bitcode" CLANG_ENABLE_MODULE_DEBUGGING=NO ONLY_ACTIVE_ARCH=NO -sdk iphoneos -arch arm64
+xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -DUSE_PD_MAIN -fcommon -fembed-bitcode" CLANG_ENABLE_MODULE_DEBUGGING=NO ONLY_ACTIVE_ARCH=NO -sdk iphoneos -arch arm64
 cp -f -v "$DIR/build/Release-iphoneos/libpd-ios.a" "$DIR/out/arm64/libpd-ios.a"
 
 #---- Build for i386 ----
-xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -fcommon  -fembed-bitcode" CLANG_ENABLE_MODULE_DEBUGGING=NO -sdk iphonesimulator -arch i386
+xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -DUSE_PD_MAIN -fcommon  -fembed-bitcode" CLANG_ENABLE_MODULE_DEBUGGING=NO -sdk iphonesimulator -arch i386
 cp -f -v "$DIR/build/Release-iphonesimulator/libpd-ios.a" "$DIR/out/i386/libpd-ios.a"
 
 #---- Build for x86_64 ----
-xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -fcommon  -fembed-bitcode" LANG_ENABLE_MODULE_DEBUGGING=NO -sdk iphonesimulator -arch x86_64
+xcodebuild -project "$DIR/libpd.xcodeproj" -target "libpd-ios" OTHER_CFLAGS="-DPD -DUSEAPI_DUMMY -DHAVE_UNISTD_H -DLIBPD_EXTRA -DUSE_PD_MAIN -fcommon  -fembed-bitcode" LANG_ENABLE_MODULE_DEBUGGING=NO -sdk iphonesimulator -arch x86_64
 cp -f -v "$DIR/build/Release-iphonesimulator/libpd-ios.a" "$DIR/out/x86_64/libpd-ios.a"
 
 #---- Combine architectures with lipo ----
