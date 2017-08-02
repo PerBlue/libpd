@@ -599,8 +599,6 @@
 		9AD43E571F31248500BCD56E /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AD43CD91F31248500BCD56E /* Readme.txt */; };
 		9AD43E581F31248500BCD56E /* regtest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD43CDA1F31248500BCD56E /* regtest.h */; };
 		9AD43E591F31248500BCD56E /* regtest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD43CDA1F31248500BCD56E /* regtest.h */; };
-		9AD43E5A1F31248500BCD56E /* sndfile-regtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43CDB1F31248500BCD56E /* sndfile-regtest.c */; };
-		9AD43E5B1F31248500BCD56E /* sndfile-regtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43CDB1F31248500BCD56E /* sndfile-regtest.c */; };
 		9AD43E5C1F31248500BCD56E /* android-configure.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9AD43CDD1F31248500BCD56E /* android-configure.sh */; };
 		9AD43E5D1F31248500BCD56E /* build-test-tarball.mk.in in Resources */ = {isa = PBXBuildFile; fileRef = 9AD43CDE1F31248500BCD56E /* build-test-tarball.mk.in */; };
 		9AD43E5E1F31248500BCD56E /* clang-sanitize.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9AD43CDF1F31248500BCD56E /* clang-sanitize.sh */; };
@@ -716,8 +714,6 @@
 		9AD43ECC1F31248600BCD56E /* g72x.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD43D1F1F31248500BCD56E /* g72x.h */; };
 		9AD43ECD1F31248600BCD56E /* g72x_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD43D201F31248500BCD56E /* g72x_priv.h */; };
 		9AD43ECE1F31248600BCD56E /* g72x_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD43D201F31248500BCD56E /* g72x_priv.h */; };
-		9AD43ECF1F31248600BCD56E /* g72x_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D211F31248500BCD56E /* g72x_test.c */; };
-		9AD43ED01F31248600BCD56E /* g72x_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D211F31248500BCD56E /* g72x_test.c */; };
 		9AD43ED11F31248600BCD56E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9AD43D221F31248500BCD56E /* README */; };
 		9AD43ED21F31248600BCD56E /* README.original in Resources */ = {isa = PBXBuildFile; fileRef = 9AD43D231F31248500BCD56E /* README.original */; };
 		9AD43ED31F31248600BCD56E /* g72x.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D241F31248500BCD56E /* g72x.c */; };
@@ -853,12 +849,8 @@
 		9AD43F551F31248600BCD56E /* test_file_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D6A1F31248500BCD56E /* test_file_io.c */; };
 		9AD43F561F31248600BCD56E /* test_float.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D6B1F31248500BCD56E /* test_float.c */; };
 		9AD43F571F31248600BCD56E /* test_float.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D6B1F31248500BCD56E /* test_float.c */; };
-		9AD43F581F31248600BCD56E /* test_ima_oki_adpcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D6C1F31248500BCD56E /* test_ima_oki_adpcm.c */; };
-		9AD43F591F31248600BCD56E /* test_ima_oki_adpcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D6C1F31248500BCD56E /* test_ima_oki_adpcm.c */; };
 		9AD43F5A1F31248600BCD56E /* test_log_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D6D1F31248500BCD56E /* test_log_printf.c */; };
 		9AD43F5B1F31248600BCD56E /* test_log_printf.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D6D1F31248500BCD56E /* test_log_printf.c */; };
-		9AD43F5C1F31248600BCD56E /* test_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D6E1F31248500BCD56E /* test_main.c */; };
-		9AD43F5D1F31248600BCD56E /* test_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D6E1F31248500BCD56E /* test_main.c */; };
 		9AD43F5E1F31248600BCD56E /* test_main.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD43D6F1F31248500BCD56E /* test_main.h */; };
 		9AD43F5F1F31248600BCD56E /* test_main.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD43D6F1F31248500BCD56E /* test_main.h */; };
 		9AD43F601F31248600BCD56E /* test_strncpy_crlf.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D701F31248500BCD56E /* test_strncpy_crlf.c */; };
@@ -888,8 +880,6 @@
 		9AD43F781F31248600BCD56E /* xi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43D7C1F31248500BCD56E /* xi.c */; };
 		9AD43FE21F31248600BCD56E /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 9AD43DC21F31248500BCD56E /* Makefile.am */; };
 		9AD43FE31F31248600BCD56E /* README-precompiled-dll.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AD43DC31F31248500BCD56E /* README-precompiled-dll.txt */; };
-		9AD43FE41F31248600BCD56E /* testprog.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43DC41F31248500BCD56E /* testprog.c */; };
-		9AD43FE51F31248600BCD56E /* testprog.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD43DC41F31248500BCD56E /* testprog.c */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -2035,7 +2025,6 @@
 		9AD43CD81F31248500BCD56E /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		9AD43CD91F31248500BCD56E /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		9AD43CDA1F31248500BCD56E /* regtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regtest.h; sourceTree = "<group>"; };
-		9AD43CDB1F31248500BCD56E /* sndfile-regtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sndfile-regtest.c"; sourceTree = "<group>"; };
 		9AD43CDD1F31248500BCD56E /* android-configure.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "android-configure.sh"; sourceTree = "<group>"; };
 		9AD43CDE1F31248500BCD56E /* build-test-tarball.mk.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-test-tarball.mk.in"; sourceTree = "<group>"; };
 		9AD43CDF1F31248500BCD56E /* clang-sanitize.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "clang-sanitize.sh"; sourceTree = "<group>"; };
@@ -2101,7 +2090,6 @@
 		9AD43D1E1F31248500BCD56E /* g72x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g72x.c; sourceTree = "<group>"; };
 		9AD43D1F1F31248500BCD56E /* g72x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = g72x.h; sourceTree = "<group>"; };
 		9AD43D201F31248500BCD56E /* g72x_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = g72x_priv.h; sourceTree = "<group>"; };
-		9AD43D211F31248500BCD56E /* g72x_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g72x_test.c; sourceTree = "<group>"; };
 		9AD43D221F31248500BCD56E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		9AD43D231F31248500BCD56E /* README.original */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.original; sourceTree = "<group>"; };
 		9AD43D241F31248500BCD56E /* g72x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = g72x.c; sourceTree = "<group>"; };
@@ -2175,9 +2163,7 @@
 		9AD43D691F31248500BCD56E /* test_endswap.tpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_endswap.tpl; sourceTree = "<group>"; };
 		9AD43D6A1F31248500BCD56E /* test_file_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_file_io.c; sourceTree = "<group>"; };
 		9AD43D6B1F31248500BCD56E /* test_float.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_float.c; sourceTree = "<group>"; };
-		9AD43D6C1F31248500BCD56E /* test_ima_oki_adpcm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_ima_oki_adpcm.c; sourceTree = "<group>"; };
 		9AD43D6D1F31248500BCD56E /* test_log_printf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_log_printf.c; sourceTree = "<group>"; };
-		9AD43D6E1F31248500BCD56E /* test_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_main.c; sourceTree = "<group>"; };
 		9AD43D6F1F31248500BCD56E /* test_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_main.h; sourceTree = "<group>"; };
 		9AD43D701F31248500BCD56E /* test_strncpy_crlf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_strncpy_crlf.c; sourceTree = "<group>"; };
 		9AD43D711F31248500BCD56E /* txw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = txw.c; sourceTree = "<group>"; };
@@ -2194,7 +2180,6 @@
 		9AD43D7C1F31248500BCD56E /* xi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xi.c; sourceTree = "<group>"; };
 		9AD43DC21F31248500BCD56E /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		9AD43DC31F31248500BCD56E /* README-precompiled-dll.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-precompiled-dll.txt"; sourceTree = "<group>"; };
-		9AD43DC41F31248500BCD56E /* testprog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testprog.c; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libpd-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libpd-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -4215,7 +4200,6 @@
 				9AD43CD81F31248500BCD56E /* Makefile.am */,
 				9AD43CD91F31248500BCD56E /* Readme.txt */,
 				9AD43CDA1F31248500BCD56E /* regtest.h */,
-				9AD43CDB1F31248500BCD56E /* sndfile-regtest.c */,
 			);
 			path = regtest;
 			sourceTree = "<group>";
@@ -4318,9 +4302,7 @@
 				9AD43D691F31248500BCD56E /* test_endswap.tpl */,
 				9AD43D6A1F31248500BCD56E /* test_file_io.c */,
 				9AD43D6B1F31248500BCD56E /* test_float.c */,
-				9AD43D6C1F31248500BCD56E /* test_ima_oki_adpcm.c */,
 				9AD43D6D1F31248500BCD56E /* test_log_printf.c */,
-				9AD43D6E1F31248500BCD56E /* test_main.c */,
 				9AD43D6F1F31248500BCD56E /* test_main.h */,
 				9AD43D701F31248500BCD56E /* test_strncpy_crlf.c */,
 				9AD43D711F31248500BCD56E /* txw.c */,
@@ -4378,7 +4360,6 @@
 				9AD43D1E1F31248500BCD56E /* g72x.c */,
 				9AD43D1F1F31248500BCD56E /* g72x.h */,
 				9AD43D201F31248500BCD56E /* g72x_priv.h */,
-				9AD43D211F31248500BCD56E /* g72x_test.c */,
 				9AD43D221F31248500BCD56E /* README */,
 				9AD43D231F31248500BCD56E /* README.original */,
 			);
@@ -4417,7 +4398,6 @@
 			children = (
 				9AD43DC21F31248500BCD56E /* Makefile.am */,
 				9AD43DC31F31248500BCD56E /* README-precompiled-dll.txt */,
-				9AD43DC41F31248500BCD56E /* testprog.c */,
 			);
 			path = Win32;
 			sourceTree = "<group>";
@@ -4853,7 +4833,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AD43F301F31248600BCD56E /* rx2.c in Sources */,
-				9AD43F591F31248600BCD56E /* test_ima_oki_adpcm.c in Sources */,
 				0E5460971E01D7FF00C4DC4B /* PdAudioUnit.m in Sources */,
 				9AD43EEA1F31248600BCD56E /* gsm_encode.c in Sources */,
 				0E5460981E01D7FF00C4DC4B /* PdAudioController.m in Sources */,
@@ -4876,7 +4855,6 @@
 				9AD43F761F31248600BCD56E /* wve.c in Sources */,
 				0E5460A11E01D7FF00C4DC4B /* s_libpdmidi.c in Sources */,
 				0E5460A21E01D7FF00C4DC4B /* x_libpdreceive.c in Sources */,
-				9AD43FE51F31248600BCD56E /* testprog.c in Sources */,
 				0E5460A31E01D7FF00C4DC4B /* z_hooks.c in Sources */,
 				0E5460A41E01D7FF00C4DC4B /* z_libpd.c in Sources */,
 				0E5460A51E01D7FF00C4DC4B /* bob~.c in Sources */,
@@ -4922,7 +4900,6 @@
 				0E5460BA1E01D7FF00C4DC4B /* d_resample.c in Sources */,
 				9AD43F631F31248600BCD56E /* txw.c in Sources */,
 				0E5460BB1E01D7FF00C4DC4B /* d_soundfile.c in Sources */,
-				9AD43F5D1F31248600BCD56E /* test_main.c in Sources */,
 				0E5460BC1E01D7FF00C4DC4B /* d_ugen.c in Sources */,
 				0E5460BD1E01D7FF00C4DC4B /* g_all_guis.c in Sources */,
 				0E5460BE1E01D7FF00C4DC4B /* g_array.c in Sources */,
@@ -4955,7 +4932,6 @@
 				0E5460C91E01D7FF00C4DC4B /* g_numbox.c in Sources */,
 				0E5460CA1E01D7FF00C4DC4B /* g_readwrite.c in Sources */,
 				9AD43F201F31248600BCD56E /* ogg_pcm.c in Sources */,
-				9AD43ED01F31248600BCD56E /* g72x_test.c in Sources */,
 				9AD43F2C1F31248600BCD56E /* raw.c in Sources */,
 				0E5460CB1E01D7FF00C4DC4B /* g_rtext.c in Sources */,
 				9AD43C191F31244000BCD56E /* gnumake-mac-gcc.inc in Sources */,
@@ -5008,7 +4984,6 @@
 				9AD43EC61F31248600BCD56E /* g723_24.c in Sources */,
 				9AD43F341F31248600BCD56E /* sds.c in Sources */,
 				9AD43F321F31248600BCD56E /* sd2.c in Sources */,
-				9AD43E5B1F31248500BCD56E /* sndfile-regtest.c in Sources */,
 				9AD43EBD1F31248600BCD56E /* flac.c in Sources */,
 				0E5460E01E01D7FF00C4DC4B /* s_inter.c in Sources */,
 				9AD43F221F31248600BCD56E /* ogg_speex.c in Sources */,
@@ -5215,7 +5190,6 @@
 				9AD43F0F1F31248600BCD56E /* mat4.c in Sources */,
 				5C7058D01F057A37004BA738 /* setup_16.h in Sources */,
 				9AD43EB41F31248600BCD56E /* double64.c in Sources */,
-				9AD43FE41F31248600BCD56E /* testprog.c in Sources */,
 				9AD43F441F31248600BCD56E /* strings.c in Sources */,
 				9AD43E911F31248600BCD56E /* alac.c in Sources */,
 				9AD438C41F1AA0E600BCD56E /* Makefile in Sources */,
@@ -5361,7 +5335,6 @@
 				9AD43F211F31248600BCD56E /* ogg_speex.c in Sources */,
 				0E82A04912EEFDEE0053280E /* d_misc.c in Sources */,
 				9AD43EE31F31248600BCD56E /* gsm_create.c in Sources */,
-				9AD43ECF1F31248600BCD56E /* g72x_test.c in Sources */,
 				9AD43ED51F31248600BCD56E /* add.c in Sources */,
 				0E82A04A12EEFDEE0053280E /* d_osc.c in Sources */,
 				9AD438B01F1AA0E600BCD56E /* lowshelf.c in Sources */,
@@ -5399,7 +5372,6 @@
 				30CEFE3B1A6A5EDC000E3BAE /* choice.c in Sources */,
 				9AD43EEF1F31248600BCD56E /* lpc.c in Sources */,
 				0E82A05912EEFDEE0053280E /* g_io.c in Sources */,
-				9AD43F5C1F31248600BCD56E /* test_main.c in Sources */,
 				9AD43C2C1F31244100BCD56E /* sndfiler.c in Sources */,
 				0E82A05A12EEFDEE0053280E /* g_mycanvas.c in Sources */,
 				9AD43E9E1F31248600BCD56E /* caf.c in Sources */,
@@ -5468,7 +5440,6 @@
 				9AD43C501F31246900BCD56E /* join.c in Sources */,
 				9AD43F1F1F31248600BCD56E /* ogg_pcm.c in Sources */,
 				30CEFE491A6A5EDC000E3BAE /* loop~.c in Sources */,
-				9AD43E5A1F31248500BCD56E /* sndfile-regtest.c in Sources */,
 				9AD43E951F31248600BCD56E /* au.c in Sources */,
 				30562D0818621366006C6949 /* z_hooks.c in Sources */,
 				9AD43F481F31248600BCD56E /* test_audio_detect.c in Sources */,
@@ -5516,7 +5487,6 @@
 				110E6DD7147B838F00282ABC /* PdAudioController.m in Sources */,
 				110E6DD9147B838F00282ABC /* PdAudioUnit.m in Sources */,
 				9AD438AE1F1AA0E600BCD56E /* hlshelf.c in Sources */,
-				9AD43F581F31248600BCD56E /* test_ima_oki_adpcm.c in Sources */,
 				30E9358816ADA07E009BFE25 /* PdMidiDispatcher.m in Sources */,
 				306DBE5816BC6710007CF226 /* ringbuffer.c in Sources */,
 				306DBE6016BC6710007CF226 /* z_queued.c in Sources */,
