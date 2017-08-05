@@ -5639,6 +5639,7 @@
 					"-DHAVE_LIBDL",
 					"-DHAVE_UNISTD_H",
 					"-DLIBPD_EXTRA",
+					"-DTHREAD_LOCKING=0",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -5665,6 +5666,7 @@
 					"-DHAVE_LIBDL",
 					"-DHAVE_UNISTD_H",
 					"-DLIBPD_EXTRA",
+					"-DTHREAD_LOCKING=0",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -5693,6 +5695,7 @@
 					"-DHAVE_UNISTD_H",
 					"-DLIBPD_EXTRA",
 					"-DUSE_PD_MAIN",
+					"-DTHREAD_LOCKING=0",
 				);
 				PRODUCT_NAME = "pd-ios";
 				SDKROOT = iphoneos;
@@ -5716,6 +5719,7 @@
 					"-DHAVE_UNISTD_H",
 					"-DLIBPD_EXTRA",
 					"-DUSE_PD_MAIN",
+					"-DTHREAD_LOCKING=0",
 				);
 				PRODUCT_NAME = "pd-ios";
 				SDKROOT = iphoneos;
@@ -5760,6 +5764,7 @@
 					"-DUSEAPI_DUMMY",
 					"-DHAVE_UNISTD_H",
 					"-DLIBPD_EXTRA",
+					"-DTHREAD_LOCKING=0",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = "";
@@ -5799,6 +5804,7 @@
 					"-DUSEAPI_DUMMY",
 					"-DHAVE_UNISTD_H",
 					"-DLIBPD_EXTRA",
+					"-DTHREAD_LOCKING=0",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = "";
