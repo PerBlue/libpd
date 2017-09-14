@@ -179,7 +179,7 @@ public final class PdBase {
     }
     String name = file.getName();
     File dir = file.getParentFile();
-    long ptr = openFile(name, (dir != null) ? dir.getAbsolutePath() : ".");
+    long ptr = openFile(name, (dir != null) ? dir.getAbsolutePath().replace("\\", "/") : ".");
     if (ptr == 0) {
       throw new IOException("unable to open patch " + file.getPath());
     }
