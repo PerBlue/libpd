@@ -401,6 +401,8 @@
 		5C7058D91F057A6A004BA738 /* os_types.h in Sources */ = {isa = PBXBuildFile; fileRef = 5C7055D61F0578FC004BA738 /* os_types.h */; };
 		5C7058DA1F057A6A004BA738 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7055EB1F0578FC004BA738 /* bitwise.c */; };
 		5C7058DB1F057A6A004BA738 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C7055EC1F0578FC004BA738 /* framing.c */; };
+		9A83BE0E1F7046A5005130D7 /* zf_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A83BE0C1F7046A5005130D7 /* zf_log.c */; };
+		9A83BE0F1F7046A5005130D7 /* zf_log.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A83BE0D1F7046A5005130D7 /* zf_log.h */; };
 		9AD438921F1AA0E600BCD56E /* constant.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD438101F1AA0E600BCD56E /* constant.c */; };
 		9AD438931F1AA0E600BCD56E /* getdir.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD438131F1AA0E600BCD56E /* getdir.c */; };
 		9AD438941F1AA0E600BCD56E /* inv.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AD438151F1AA0E600BCD56E /* inv.c */; };
@@ -1786,6 +1788,8 @@
 		5C70587B1F057907004BA738 /* vorbisdec_static.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = vorbisdec_static.vcxproj; sourceTree = "<group>"; };
 		5C70587D1F057907004BA738 /* vorbisenc_dynamic.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = vorbisenc_dynamic.vcxproj; sourceTree = "<group>"; };
 		5C70587E1F057907004BA738 /* vorbisenc_static.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = vorbisenc_static.vcxproj; sourceTree = "<group>"; };
+		9A83BE0C1F7046A5005130D7 /* zf_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zf_log.c; sourceTree = "<group>"; };
+		9A83BE0D1F7046A5005130D7 /* zf_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zf_log.h; sourceTree = "<group>"; };
 		9AD4380C1F1AA0E600BCD56E /* authors */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = authors; sourceTree = "<group>"; };
 		9AD4380D1F1AA0E600BCD56E /* changes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changes; sourceTree = "<group>"; };
 		9AD4380F1F1AA0E600BCD56E /* constant-help.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "constant-help.pd"; sourceTree = "<group>"; };
@@ -2336,6 +2340,8 @@
 		30CEFE211A6A5E5F000E3BAE /* src */ = {
 			isa = PBXGroup;
 			children = (
+				9A83BE0C1F7046A5005130D7 /* zf_log.c */,
+				9A83BE0D1F7046A5005130D7 /* zf_log.h */,
 				0E829FF412EEFDED0053280E /* d_arithmetic.c */,
 				0E829FF512EEFDED0053280E /* d_array.c */,
 				0E829FF612EEFDED0053280E /* d_ctl.c */,
@@ -4512,6 +4518,7 @@
 				9AD43F391F31248600BCD56E /* sfconfig.h in Headers */,
 				110E6DD6147B838F00282ABC /* PdAudioController.h in Headers */,
 				9AD43C5B1F31246900BCD56E /* threadlib.h in Headers */,
+				9A83BE0F1F7046A5005130D7 /* zf_log.h in Headers */,
 				9AD43F371F31248600BCD56E /* sf_unistd.h in Headers */,
 				110E6DD8147B838F00282ABC /* PdAudioUnit.h in Headers */,
 				30E9358616ADA07E009BFE25 /* PdMidiDispatcher.h in Headers */,
@@ -5220,6 +5227,7 @@
 				5C7058911F0579B3004BA738 /* analysis.c in Sources */,
 				5C7058921F0579B4004BA738 /* backends.h in Sources */,
 				5C7058941F0579B4004BA738 /* bitrate.c in Sources */,
+				9A83BE0E1F7046A5005130D7 /* zf_log.c in Sources */,
 				5C7058951F0579B4004BA738 /* bitrate.h in Sources */,
 				5C7058961F0579B4004BA738 /* block.c in Sources */,
 				9AD43F691F31248600BCD56E /* vox_adpcm.c in Sources */,
